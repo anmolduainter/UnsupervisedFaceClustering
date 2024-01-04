@@ -14,3 +14,5 @@
 - https://github.com/openvinotoolkit/deep-object-reid
 - https://github.com/layumi/Person_reID_baseline_pytorch/blob/master/prepare.py
 - https://github.com/wangguanan/light-reid
+
+https://arxiv.org/pdf/1908.03381.pdf

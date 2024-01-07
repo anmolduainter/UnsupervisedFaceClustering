@@ -47,7 +47,7 @@
 | MobileFaceNetv2 | FP16 | 105_train + CELEBA + DigiFace + CASIA | <table><tr><th>Dataset</th><th>NMI</th><th>ARI</th><th>Pairwise F1</th></tr><tr><td>105_test</td><td>0.879</td><td>0.817</td><td>0.822</td></tr><tr><td>lfw</td><td>0.96</td><td>0.948</td><td>0.95</td></tr></table> | | 2.6 mb | 938 |
 | MobileFaceNetv2 | PTQ(INT8) | 105_train + CELEBA + DigiFace + CASIA | <table><tr><th>Dataset</th><th>NMI</th><th>ARI</th><th>Pairwise F1</th></tr><tr><td>105_test</td><td>0.802</td><td>0.869</td><td>0.795</td></tr><tr><td>lfw</td><td>0.96</td><td>0.946</td><td>0.947</td></tr></table> | | 2 mb | 1133 |
 
-## Sample Results
+## Sample Results (Test Data)
 <table>
   <tr>
     <th>Model</th>
@@ -66,7 +66,7 @@
   </tr>
 </table>
 
-## Umap Visualization
+## Umap Visualization (Test Data)
 <table>
   <tr>
     <th>Model</th>

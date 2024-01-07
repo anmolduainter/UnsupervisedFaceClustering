@@ -13,7 +13,7 @@ from backbones.mobilefacenetv2 import MobileFaceNetv2
 
 from losses import *
 
-from utils import AverageMeter
+from utils import AverageMeter, test_model_pred_quality
 from torch.utils.data import DataLoader
 from dataset import FaceDataset, EvaluationFaceDataset
 import numpy as np
@@ -21,7 +21,6 @@ from tqdm import tqdm
 import wandb
 
 import os
-from metrics import test_model_pred_quality
 import yaml
 import argparse
 

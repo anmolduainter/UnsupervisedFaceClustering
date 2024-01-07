@@ -12,8 +12,13 @@
         (Note: dataset_folder here is the folder where images are stored inside given classes name)
     output will be stored here: "./evaluation_results/{model_version}/{dataset_name}/"
 
-    If want to test on 105 and LFW, data are provided in ./Data/ Folder, can unzip it.
+    If want to test on 105 and LFW, download the data from link and put it inside ./Data/ Folder.
 ```
+
+### Downloads
+- [105_test](https://drive.google.com/file/d/10MCDuLJRA1bZxLvS-5agYbmvPQHEMgZ9/view?usp=sharing)
+- [lfw](https://drive.google.com/file/d/1Sz7XBQrfPgjBMc6Nzr9EZYkeEKah5Cwn/view?usp=sharing)
+- [evaluation_results](https://drive.google.com/file/d/14DSOAE9Iu2IWla9EjZMpZkAYCzkji1oq/view?usp=sharing)
 
 #### Using Docker:
 ```
@@ -40,7 +45,7 @@
 | MobileFaceNet| PTQ(INT8) | 105_train + CELEBA + DigiFace + CASIA | <table><tr><th>Dataset</th><th>NMI</th><th>ARI</th><th>Pairwise F1</th></tr><tr><td>105_test</td><td>0.910</td><td>0.860</td><td>0.865</td></tr><tr><td>lfw</td><td>0.967</td><td>0.955</td><td>0.956</td></tr></table> | | 1.6 mb | 1300 |
 | MobileFaceNetv2 | FP32 | 105_train + CELEBA + DigiFace + CASIA | <table><tr><th>Dataset</th><th>NMI</th><th>ARI</th><th>Pairwise F1</th></tr><tr><td>105_test</td><td>0.876</td><td>0.809</td><td>0.815</td></tr><tr><td>lfw</td><td>0.961</td><td>0.949</td><td>0.951</td></tr></table> | | 4.8 mb | 105 |
 | MobileFaceNetv2 | FP16 | 105_train + CELEBA + DigiFace + CASIA | <table><tr><th>Dataset</th><th>NMI</th><th>ARI</th><th>Pairwise F1</th></tr><tr><td>105_test</td><td>0.879</td><td>0.817</td><td>0.822</td></tr><tr><td>lfw</td><td>0.96</td><td>0.948</td><td>0.95</td></tr></table> | | 2.6 mb | 938 |
-| MobileFaceNetv2 | PTQ(INT8) | 105_train + CELEBA + DigiFace + CASIA | <table><tr><th>Dataset</th><th>NMI</th><th>ARI</th><th>Pairwise F1</th></tr><tr><td>105_test</td><td></td><td>0.869</td><td>0.795</td></tr>0.802<tr><td>lfw</td><td>0.96</td><td>0.946</td><td>0.947</td></tr></table> | | 2 mb | 1133 |
+| MobileFaceNetv2 | PTQ(INT8) | 105_train + CELEBA + DigiFace + CASIA | <table><tr><th>Dataset</th><th>NMI</th><th>ARI</th><th>Pairwise F1</th></tr><tr><td>105_test</td><td>0.802</td><td>0.869</td><td>0.795</td></tr><tr><td>lfw</td><td>0.96</td><td>0.946</td><td>0.947</td></tr></table> | | 2 mb | 1133 |
 
 ## Sample Results
 <table>

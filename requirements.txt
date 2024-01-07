@@ -1,0 +1,15 @@
+faiss-cpu
+infomap
+numpy
+onnx
+opencv-python
+openvino
+pillow
+PyYAML
+scikit-learn
+scipy
+thop
+torch
+torchaudio
+torchvision
+tqdm

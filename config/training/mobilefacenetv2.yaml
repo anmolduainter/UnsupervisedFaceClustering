@@ -1,0 +1,29 @@
+network: mobilefacenetv2
+embedding_size: 128
+momentum: 0.9
+weight_decay: !!float 5e-4
+batch_size: 512
+lr: 0.1
+output: ./training_weights/mobilefacenetv2/
+global_step: 0
+
+s: 15.0
+m: 0.3
+std: 0.05
+
+loss: ArcFace
+
+rec: /data/Kaggle/FaceClust/Datasets/
+train_l:
+  - 105_classes_pins_dataset_train
+  - CASIA
+  - CelebaTrain
+  - DigiFace
+
+eval_l:
+  - 105_classes_pins_dataset_test
+
+num_classes: 40000
+num_epoch: 100
+warmup_epoch: -1
+eval_step: 1000

@@ -1,0 +1,4 @@
+img_size: 112
+backbone_type: mobilefacenet_ptq_openvino
+backbone_weights: ./model_weights/mobilefacenet/openvino_optimized/ptq/quantized_model.xml
+save_dir: ./evaluation_results/mobilefacenet_ptq/

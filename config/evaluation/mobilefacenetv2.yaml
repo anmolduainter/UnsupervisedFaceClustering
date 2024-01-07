@@ -1,0 +1,4 @@
+img_size: 112
+backbone_type: mobilefacenetv2
+backbone_weights: ./model_weights/mobilefacenetv2/fp32/29722backbone.pth
+save_dir: ./evaluation_results/mobilefacenetv2/
